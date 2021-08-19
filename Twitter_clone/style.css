@@ -1,0 +1,195 @@
+body{
+    background-color: black;
+    color: white;
+    
+    font-size: 15px;
+    
+}
+.logotop
+{
+    margin-top: 45px;
+    margin-left: 45px;
+    margin-bottom: 25px;
+}
+.title
+{
+    font-size: 60px;
+    margin-left: 50px;
+    text-transform: none;
+    font-weight: bolder;
+    
+}
+.sub-title
+{
+    margin-left: 50px;
+    text-transform: none;
+    font-size:35px;
+    font-weight: bold;
+}
+.btn
+{
+    background-color: white;
+    text-transform: none;
+    margin-left: 50px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   width: 350px;
+    margin-top: 20px;
+    
+    
+    
+}
+.logo
+{
+    width: 20px; 
+    height: 20px; 
+    margin-bottom: 5px;
+   
+ 
+}
+.btn-ou
+{
+    margin-right: 0px;
+    padding-right: 0;
+}
+.paragrafobaixo
+{
+    font-size: 13px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: darkgrey;
+    
+}
+.login
+{
+    margin-left: 50px;
+}
+/*Lado direito da pagina*/
+.logo-principal
+{
+    width: 700px;
+    height: 650px;
+    position: relative;
+}
+.logo-twitter
+{
+    position: absolute;
+    opacity: 1;
+    width: 500px;
+    height: 500px;
+    align-self: center;
+    margin-top: 90px;
+}
+/*Footer*/
+.link-footer
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+    font-size: 13px;
+    text-decoration: none;
+    color: darkgrey;
+}
+.link-footer:hover
+{
+    color:gray;
+    text-decoration: underline;
+}
+.link-baixo
+{
+    margin-left: 480px;
+}
+
+/*Responsividade*/
+
+@media(max-width:800px)
+{
+    .logo-principal
+    {
+        display: none;
+        
+    }
+    
+    .logo-twitter
+    {
+        display: none;
+        
+    }
+
+    /* lado direito*/
+    .title
+    {
+        font-size: 30px;
+        text-align: center;
+        
+    }
+    .sub-title
+    {
+        
+        
+        font-size:17px;
+        text-align: center;
+        
+    }
+    .btn
+    {
+        font-size: 10px;
+        width: 275px;
+        align-self: center;
+    }
+    .logo
+    {
+        width: 15px;
+        height: 15px;
+    }
+    .logotop
+    {
+        margin-left: 50%;
+    }
+    .paragrafobaixo
+    {
+       margin-left: 35%;
+       font-size: 12px;
+    }
+    .login
+    {
+        margin-left: 43.75%;
+        font-size: 13px;
+    }
+    .link-footer
+    {
+        font-size: 10px;
+    }
+    .link-baixo
+    {
+        margin-left: 23%;
+    }
+}
+
+@media(max-width:400px)
+{
+    .title
+    {
+        font-size: 20px;
+    }
+    .sub-title
+    {
+        font-size: 12px;
+    }
+    .paragrafobaixo
+    {
+        font-size: 8px;
+    }
+    .login
+    {
+        font-size: 9px;
+    }
+    .link-footer
+    {
+        display: none;
+    }
+}
+
