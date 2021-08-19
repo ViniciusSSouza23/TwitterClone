@@ -1,2 +1,2 @@
 # TwitterClone
-Um clone do Twitter feito utilizando bootstrap e sistema de flex box.
+Feito utilizando Boostrap e sistema de flex-box, fazendo uma alteração do original no sistema responsivo.
